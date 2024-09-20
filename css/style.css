@@ -9,17 +9,17 @@
 /* # UTILS */
 
 .header-page {
-  margin: 30px auto;
-  padding: 0 10px;
+  margin: 30px;
   max-width: 100%;
   background-color: rgb(19, 205, 230);
-  display: flex;
-  justify-content: space-around;
 }
 
 /* # HEADER */
 
-header {
+.header-item {
+  background-color: rgb(199, 148, 39);
+  display: flex;
+  justify-content: space-around;
 }
 
 .header-setup {
@@ -102,13 +102,12 @@ header {
 
 /* # FOOTER */
 
-.end-page {
-  height: 400px;
+.footer-container {
+  height: 500px;
   background-color: rgb(32, 27, 27);
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-direction: row-reverse;
 }
 
 .first-card {
@@ -125,6 +124,10 @@ header {
   border: 1px dashed black;
 }
 
+hr {
+  margin: 20px;
+}
+
 .end {
 }
 
@@ -137,10 +140,14 @@ header {
   align-items: center;
 }
 
-.logo {
+.flex-card {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.button {
+.end-page {
+  display: flex;
+  flex-direction: column;
 }
 
 .end-item {
