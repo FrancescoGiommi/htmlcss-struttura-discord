@@ -32,6 +32,32 @@ header {
   height: 500px;
   background-color: blue;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 {
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 {
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.section-4 {
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -39,9 +65,23 @@ header {
 
 .first {
   height: 400px;
-  width: 600px;
+  width: 800px;
   background-color: pink;
 }
 
 .card-center {
+}
+
+/* # COLUMS */
+
+.blue-column {
+  width: 600px;
+  height: 400px;
+  background-color: cadetblue;
+}
+
+.rose-column {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(187, 74, 143);
 }
