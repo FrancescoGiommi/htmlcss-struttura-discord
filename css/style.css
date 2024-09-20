@@ -8,7 +8,7 @@
 
 /* # UTILS */
 
-.container {
+.header-page {
   margin: 30px auto;
   padding: 0 10px;
   max-width: 100%;
@@ -107,7 +107,7 @@ header {
   background-color: rgb(32, 27, 27);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row-reverse;
 }
 
@@ -126,4 +126,23 @@ header {
 }
 
 .end {
+}
+
+.end-container {
+  width: 1000px;
+  height: 50px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+}
+
+.button {
+}
+
+.end-item {
+  background-color: rgb(172, 65, 145);
 }
