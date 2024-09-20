@@ -26,7 +26,7 @@ header {
   background-color: goldenrod;
 }
 
-/* # SECTION */
+/* # MAIN SECTION */
 
 .section-1 {
   height: 500px;
@@ -46,7 +46,7 @@ header {
 
 .section-3 {
   height: 500px;
-  background-color: white;
+  background-color: rgb(137, 142, 143);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,12 +61,26 @@ header {
   align-items: center;
 }
 
+.section-5 {
+  height: 700px;
+  background-color: rgb(137, 142, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* # CARD */
 
 .first {
   height: 400px;
   width: 800px;
   background-color: pink;
+}
+
+.last {
+  height: 600px;
+  width: 1000px;
+  background-color: green;
 }
 
 .card-center {
@@ -84,4 +98,32 @@ header {
   width: 400px;
   height: 400px;
   background-color: rgb(187, 74, 143);
+}
+
+/* # FOOTER */
+
+.end-page {
+  height: 400px;
+  background-color: rgb(32, 27, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.first-card {
+  width: 175px;
+  height: 400px;
+  background-color: cadetblue;
+  border: 1px dashed white;
+}
+
+.second-card {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(187, 74, 143);
+  border: 1px dashed black;
+}
+
+.end {
 }
