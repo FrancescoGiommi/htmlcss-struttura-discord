@@ -173,5 +173,7 @@ hr {
 }
 
 .end-item {
-  background-color: rgb(172, 65, 145);
+  background-color: rgb(247, 163, 226);
+  padding: 5px;
+  border: 1px dashed black;
 }
